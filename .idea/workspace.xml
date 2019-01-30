@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5aba061a-9572-4a87-8884-30ea4c476d6f" name="Default Changelist" comment="" />
+    <list default="true" id="5aba061a-9572-4a87-8884-30ea4c476d6f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/taskOne/AutoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/taskOne/TestConditions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/taskOne/TestConditions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/taskOne/AutoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/taskOne/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/taskOne/TestConditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/taskOne/TestConditions.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -27,38 +33,40 @@
     <session id="561904555">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="2" />
+          <entry key="java" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="248" />
+          <entry key="java" value="1227" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="248" />
+          <entry key="JAVA" value="1227" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,10 +77,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/taskOne/AutoTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/taskOne/MainPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+            <state relative-caret-position="289">
+              <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,10 +91,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/taskOne/TestConditions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+            <state relative-caret-position="-20">
+              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="29" column="46" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1033#1034#0" expanded="true" />
+                <element signature="e#1067#1068#0" expanded="true" />
+                <element signature="e#1209#1210#0" expanded="true" />
+                <element signature="e#1242#1243#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
+                <element signature="e#1440#1441#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,6 +126,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -399,23 +428,32 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/taskOne/TestConditions.java" />
         <option value="$PROJECT_DIR$/src/test/java/taskOne/AutoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/taskOne/TestConditions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/taskOne/MainPageTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="233" />
     <option name="y" value="6" />
     <option name="width" value="1643" />
     <option name="height" value="993" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -427,6 +465,27 @@
               <item name="homeworkOne" type="b2602c69:ProjectViewProjectNode" />
               <item name="myHomeworks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="homeworkOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myHomeworks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="homeworkOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myHomeworks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="homeworkOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myHomeworks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="homeworkOne" type="b2602c69:ProjectViewProjectNode" />
@@ -453,11 +512,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548753543424" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548840426149" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -474,8 +533,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="AutoTest.openPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MainPageTest.checkCurrentURL">
+    <configuration name="AutoTest.checkCurrentURL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeworkOne_test" />
       <extension name="coverage">
         <pattern>
@@ -485,15 +544,88 @@
       </extension>
       <option name="PACKAGE_NAME" value="taskOne" />
       <option name="MAIN_CLASS_NAME" value="taskOne.AutoTest" />
-      <option name="METHOD_NAME" value="openPage" />
+      <option name="METHOD_NAME" value="checkCurrentURL" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homeworkOne_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taskOne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taskOne" />
+      <option name="MAIN_CLASS_NAME" value="taskOne.MainPageTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageTest.authorization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homeworkOne_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taskOne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taskOne" />
+      <option name="MAIN_CLASS_NAME" value="taskOne.MainPageTest" />
+      <option name="METHOD_NAME" value="authorization" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageTest.checkCurrentURL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homeworkOne_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taskOne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taskOne" />
+      <option name="MAIN_CLASS_NAME" value="taskOne.MainPageTest" />
+      <option name="METHOD_NAME" value="checkCurrentURL" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageTest.searchGood" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homeworkOne_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taskOne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taskOne" />
+      <option name="MAIN_CLASS_NAME" value="taskOne.MainPageTest" />
+      <option name="METHOD_NAME" value="searchGood" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AutoTest.checkCurrentURL" />
+      <item itemvalue="JUnit.MainPageTest.checkCurrentURL" />
+      <item itemvalue="JUnit.MainPageTest" />
+      <item itemvalue="JUnit.MainPageTest.searchGood" />
+      <item itemvalue="JUnit.MainPageTest.authorization" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AutoTest.openPage" />
+        <item itemvalue="JUnit.MainPageTest.checkCurrentURL" />
+        <item itemvalue="JUnit.MainPageTest.searchGood" />
+        <item itemvalue="JUnit.MainPageTest" />
+        <item itemvalue="JUnit.MainPageTest.authorization" />
+        <item itemvalue="JUnit.AutoTest.checkCurrentURL" />
       </list>
     </recent_temporary>
   </component>
@@ -510,39 +642,103 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MainPageTest - 2019.01.29 at 17h 20m 44s.xml">
+      <configuration name="MainPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest_searchGood - 2019.01.30 at 10h 07m 38s.xml">
+      <configuration name="MainPageTest.searchGood" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest_searchGood - 2019.01.30 at 10h 26m 15s.xml">
+      <configuration name="MainPageTest.searchGood" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest_authorization - 2019.01.30 at 10h 39m 19s.xml">
+      <configuration name="MainPageTest.authorization" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest - 2019.01.30 at 10h 42m 17s.xml">
+      <configuration name="MainPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest - 2019.01.30 at 11h 03m 44s.xml">
+      <configuration name="MainPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest - 2019.01.30 at 11h 07m 30s.xml">
+      <configuration name="MainPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest - 2019.01.30 at 11h 15m 58s.xml">
+      <configuration name="MainPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest - 2019.01.30 at 11h 19m 13s.xml">
+      <configuration name="MainPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest - 2019.01.30 at 11h 20m 26s.xml">
+      <configuration name="MainPageTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20998926" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2132116" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.2637749" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32942554" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.2637749" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32975295" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20998926" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CheckStyle" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="4" weight="0.2637749" />
+      <window_info anchor="bottom" id="Messages" order="5" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.32942554" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -557,18 +753,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/taskOne/TestConditions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+        <state relative-caret-position="-20">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/taskOne/AutoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+        <state relative-caret-position="295">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/taskOne/MainPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
