@@ -23,4 +23,6 @@ public class MainPageTest extends TestConditions{
         mainPage.getInputSearch().sendKeys("red duck" +Keys.ENTER);
         Assert.assertThat("Element not found", mainPage.getGoodRedDuck().isDisplayed(), is(true));
     }
+    @Test
+    public void 
 }

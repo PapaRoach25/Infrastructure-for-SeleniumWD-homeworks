@@ -9,8 +9,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class MainPage {
-    private WebDriver webDriver;
+    private static WebDriver webDriver;
     private WebDriverWait wait;
+
+    public MainPage(WebDriver driver){
+        webDriver = driver;
+        wait = new WebDriverWait(webDriver, 30);
+        PageFactory.initElements(webDriver, this);
+    }
 
     @FindBy(xpath = "//input[@name=\"email\"]")
     WebElement email;
@@ -30,11 +36,6 @@ public class MainPage {
     @FindBy(xpath = "//span[text()=\"RD003\"]")
     WebElement goodRedDuck;
 
-    public MainPage(WebDriver driver){
-        webDriver = driver;
-        wait = new WebDriverWait(webDriver, 30);
-        PageFactory.initElements(webDriver, this);
-    }
 
     public WebElement getEmail() {
         return email;
